@@ -5,6 +5,7 @@ This project demonstrates using the Mundus runtime for TeaVM to load and interac
 ![Screenshot](https://user-images.githubusercontent.com/28971753/170131401-6983060c-f09b-4ba1-bcbb-439c86f7b21a.png)
 
 JTK's original Mundus Runtime Example project: https://github.com/JamesTKhan/MundusRuntimeExample
+
 JTK's Mundus: https://github.com/JamesTKhan/Mundus
 
 ## Project Template
