@@ -9,7 +9,7 @@ gretty {
 }
 
 sourceSets.main.resources.srcDirs += [ rootProject.file('assets').path ]
-project.ext.mainClassName = 'com.github.xpenatan.kotlin.teavm.TeaVMBuilder'
+project.ext.mainClassName = 'com.antz.teavm.mundus.runtime.example.teavm.TeaVMBuilder'
 eclipse.project.name = appName + '-teavm'
 
 // This must be at least 11, and no higher than the JDK version this project is built with.
@@ -19,7 +19,10 @@ sourceCompatibility = 11
 
 
 dependencies {
-  implementation "com.github.xpenatan.gdx-teavm:backend-teavm:$gdxTeaVMVersion"
+  //implementation "com.github.xpenatan.gdx-teavm:backend-teavm:$gdxTeaVMVersion"
+  implementation "com.github.xpenatan.gdx-teavm:backend-teavm:$project.gdxTeaVMVersion"
+  api "com.github.antzGames.mundus:gdx-runtime:TeaVM-Support-SNAPSHOT"
+  api "com.github.antzGames.mundus:commons:TeaVM-Support-SNAPSHOT"
   implementation project(':core')
 
 }
