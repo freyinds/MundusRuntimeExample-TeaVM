@@ -1,4 +1,4 @@
-# gdx-teavm-kotlin-template
+# Mundus Runtime Example - using TeaVM
 
 A [libGDX](https://libgdx.com/) project generated with [gdx-liftoff](https://github.com/tommyettinger/gdx-liftoff).
 
