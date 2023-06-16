@@ -7,6 +7,8 @@ This project demonstrates using the Mundus runtime for TeaVM to load and interac
 JTK's original Mundus Runtime Example project: https://github.com/JamesTKhan/MundusRuntimeExample
 JTK's Mundus: https://github.com/JamesTKhan/Mundus
 
+## Project Template
+
 A [libGDX](https://libgdx.com/) project generated with [gdx-liftoff](https://github.com/tommyettinger/gdx-liftoff).
 
 This project was generated with a template that includes Kotlin application launchers and draws the libGDX logo within the application listener.
