@@ -118,7 +118,7 @@ public class MundusExample extends ApplicationAdapter {
             ColorAttribute colorAttribute = (ColorAttribute) scene.environment.get(ColorAttribute.Fog);
             colorAttribute.color.set(Color.BLACK);
 
-            scene.environment.getAmbientLight().intensity = 0.1f;
+            //scene.environment.getAmbientLight().intensity = 0.1f;
 
             FogAttribute fogAttribute = (FogAttribute) scene.environment.get(FogAttribute.FogEquation);
             fogAttribute.value.x = 100f; // Near plane

@@ -21,8 +21,8 @@ sourceCompatibility = 11
 dependencies {
   //implementation "com.github.xpenatan.gdx-teavm:backend-teavm:$gdxTeaVMVersion"
   implementation "com.github.xpenatan.gdx-teavm:backend-teavm:$project.gdxTeaVMVersion"
-  api "com.github.antzGames.mundus:gdx-runtime:TeaVM-Support-SNAPSHOT"
-  api "com.github.antzGames.mundus:commons:TeaVM-Support-SNAPSHOT"
+  api "com.github.antzGames.mundus:gdx-runtime:gdxteavm_issue_103_bypass-SNAPSHOT"
+  api "com.github.antzGames.mundus:commons:gdxteavm_issue_103_bypass-SNAPSHOT"
   implementation project(':core')
 
 }
