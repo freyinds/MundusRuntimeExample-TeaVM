@@ -82,7 +82,7 @@ public class MundusExample extends ApplicationAdapter {
         }
 
         // Queuing up your own assets to include in asynchronous loading
-        mundus.getAssetManager().getGdxAssetManager().load("beach.mp3", Music.class);
+        //mundus.getAssetManager().getGdxAssetManager().load("beach.mp3", Music.class);
     }
 
     @Override
@@ -176,9 +176,9 @@ public class MundusExample extends ApplicationAdapter {
             gameState = GameState.PLAYING;
 
             // Retrieve custom asset we queued
-            Music music = mundus.getAssetManager().getGdxAssetManager().get("beach.mp3");
-            music.setVolume(0.05f);
-            music.play();
+//            Music music = mundus.getAssetManager().getGdxAssetManager().get("beach.mp3");
+//            music.setVolume(0.05f);
+//            music.play();
             Gdx.graphics.setFullscreenMode(Gdx.graphics.getDisplayMode());
         }
     }
